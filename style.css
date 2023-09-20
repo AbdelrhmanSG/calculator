@@ -1,0 +1,49 @@
+html{
+   background: url(wood.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+      font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+   justify-content: center;
+}
+p{
+        font-size: 25px;
+}
+p,h2{
+    color: #191717;
+}
+#input1,#input2,#input3{
+    width: 100px;
+}
+#theres{
+    width: 250px;
+    margin-bottom: 25px;
+}
+hr{
+    width: 400px;
+}
+#calc,#reset{
+    color: #FAF2D3;
+    background-color: black;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 30%;
+    transition-duration: 0.5s;
+    margin: 10px;
+}
+#reset:hover{
+    background-color: #FAF2D3 ;
+    color: black;
+    transform: scale(1.1);
+}
+#calc:hover {
+    background-color: #FAF2D3 ;
+    color: black;
+    transform: scale(1.1);
+}
